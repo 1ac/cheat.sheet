@@ -1,3 +1,4 @@
+
 CREATE DATABASE foo
 SHOW DATABASES
 USE foo
@@ -10,5 +11,5 @@ DROP SERIES FROM "drilling" WHERE ("module_id" = 'oppy')
 
 
 
-###
+#
 brew services restart influxdb
